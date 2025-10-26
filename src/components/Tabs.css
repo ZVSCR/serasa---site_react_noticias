@@ -1,0 +1,25 @@
+.tabs-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.tab-button {
+  flex: 1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.tab-button.active {
+  font-weight: bold;
+  border-bottom: 3px solid var(--active-color, #0f7a1dff);
+}
